@@ -1,4 +1,4 @@
-package algo;
+package algo.arrays;
 
 import java.util.HashMap;
 
@@ -80,18 +80,17 @@ public class findMajorityElement {
 //    Auxiliary Space : O(n)
 
         private static void findMajority(int[] arr){
-            HashMap<Integer,Integer> map = new HashMap<Integer, Integer>();
-            for (int i = 0; i < arr.length; i++){
-                if(map.containsKey(arr[i])){
-                    int count = map.get(arr[i]) + 1;
-                    if (count > arr.length/2){
-                        System.out.println("Majority Found :- " + arr[i]);
+            HashMap<Integer,Integer> map = new HashMap<>();
+            for (int value : arr) {
+                if (map.containsKey(value)) {
+                    int count = map.get(value) + 1;
+                    if (count > arr.length / 2) {
+                        System.out.println("Majority Found :- " + value);
                         return;
                     } else
-                        map.put(arr[i],count);
-                }
-                else
-                    map.put(arr[i],1);
+                        map.put(value, count);
+                } else
+                    map.put(value, 1);
             }
             System.out.println("No Majority element");
         }

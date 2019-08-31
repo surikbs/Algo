@@ -1,4 +1,4 @@
-package algo;
+package algo.arrays;
 
 public class MissingNumber {
     public static void main(String[] args) {
@@ -9,16 +9,15 @@ public class MissingNumber {
     }
 
 // Traditional Approach
-    public static int missingNumber(int[] num){
+    private static int missingNumber(int[] num){
         int n=num.length+1;
         int sum=n*(n+1)/2;
         System.out.println(sum);
         int restsum=0;
-        for (int i = 0; i < num.length; i++){
-            restsum+=num[i];
+        for (int value : num) {
+            restsum += value;
         }
-        int missingnumber=sum-restsum;
-        return missingnumber;
+        return sum-restsum;
     }
 //
 // The below logic works only if the numbers are in ascending order in the array
