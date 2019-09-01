@@ -4,7 +4,7 @@ public class leadersInArray {
 
     public static void main(String[] args) {
         leadersInArray leadersInArray = new leadersInArray();
-        int[] arr = new int[]{16, 17, 4, 3, 5, 2};
+        int[] arr = new int[]{16, 17, 4, 3, 5, 2, 5, 5,4};
         int n = arr.length;
         leadersInArray.printLeaders(arr,n);
     }
@@ -21,8 +21,8 @@ public class leadersInArray {
 //                System.out.println(arr[i] + " ");
 //        }
 //    }
-    //Time Complexity: O(n)
 
+    //Time Complexity: O(n)
     private void printLeaders(int[] arr, int size){
         int max_from_right = arr[size - 1];
         System.out.println(max_from_right + " ");

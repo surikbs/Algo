@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="LeadersinArray">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/leadersInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/algo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/SubarraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/binarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/linearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algo/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/MissingNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algo/findMajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/findMajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algo/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/MissingNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/findMajorityElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo/arrays/leadersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/leadersInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/arrays/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/arrays/MissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/arrays/findMajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/arrays/findMajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/arrays/leadersInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/arrays/leadersInArray.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.leadersInArray">
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.MajorityElement" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.binarySearch">
     <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algo.arrays.MissingNumber" />
       <module name="algo" />
@@ -72,12 +54,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findMajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.arrays.findMajorityElement" />
+    <configuration name="SubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.arrays.SubarraySum" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algo.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.search.binarySearch" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="linearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.search.linearSearch" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.binarySearch" />
+        <item itemvalue="Application.linearSearch" />
+        <item itemvalue="Application.SubarraySum" />
         <item itemvalue="Application.leadersInArray" />
         <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.findMajorityElement" />
-        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +127,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567246069573</updated>
     </task>
+    <task id="LOCAL-00001" summary="LeadersinArray">
+      <created>1567252753092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567252753092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
