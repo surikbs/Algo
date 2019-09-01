@@ -18,7 +18,7 @@ public class interpolationSearch {
                 if( arr[low] == element) return low;
                 return -1;
             }
-            int pos = low +(((high - low)/ (arr[high] - arr[low])) * ( element - arr[low]));
+            int pos = low + (((high - low)/ (arr[high] - arr[low])) * ( element - arr[low]));
             if (arr[pos] == element)
                 return pos;
             if(arr[pos] < element) low = pos + 1;
