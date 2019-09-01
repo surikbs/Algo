@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/SubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/binarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/linearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algo/arrays/leadersInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/arrays/leadersInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/arrays/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/arrays/MissingNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/arrays/findMajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/arrays/findMajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/arrays/leadersInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/arrays/leadersInArray.class" afterDir="false" />
-    </list>
+    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567252753092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Search algo">
+      <created>1567312178326</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567312178326</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LeadersinArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeadersinArray" />
+    <MESSAGE value="Search algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search algo" />
   </component>
 </project>
