@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/amazon/nextGreatest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/amazon/printParenthesis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algo/search/interpolationSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/search/interpolationSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/SelectionSort.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.nextGreatest">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algo.sort.BubbleSort" />
       <module name="algo" />
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="binarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.search.binarySearch" />
+    <configuration name="nextGreatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.amazon.nextGreatest" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.search.*" />
+          <option name="PATTERN" value="algo.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interpolationSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.search.interpolationSearch" />
+    <configuration name="printParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.amazon.printParenthesis" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.search.*" />
+          <option name="PATTERN" value="algo.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.nextGreatest" />
+        <item itemvalue="Application.printParenthesis" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.interpolationSearch" />
-        <item itemvalue="Application.binarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567313191390</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Search Algo">
+      <created>1567347070157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1567347070157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +178,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -180,6 +190,7 @@
     <MESSAGE value="LeadersinArray" />
     <MESSAGE value="Search algo" />
     <MESSAGE value="InterpolationSearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="InterpolationSearch" />
+    <MESSAGE value="Search Algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Algo" />
   </component>
 </project>
