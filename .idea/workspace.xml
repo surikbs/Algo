@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="Hashing things">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/IsSubset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/pivotedBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/CloseSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hackerrank/prep/sockMerchant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algo/amazon/nextGreatest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algo/search/BubbleSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algo/search/pivotedBinarySearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algo/sort/HeapSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algo/sort/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/algo/sort/QuickSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/hackerrank/prep/sockMerchant.class" afterDir="false" />
+    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/FindPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/LargestSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/hasArrayTwoCandidates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/printItinerary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algo/hashing/IsSubset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/IsSubset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/hashing/IsSubset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/hashing/IsSubset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/CloseSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/CloseSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/MergeSort.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QBZhaY2SmSe3rq54NJ7bbPhFju" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -51,35 +47,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsSubset">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.search.BubbleSort" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloseSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.sort.CloseSum" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.hashing.IsSubset" />
+  <component name="RunManager" selected="Application.LargestSubArray">
+    <configuration name="FindPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.hashing.FindPairs" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.sort.MergeSort" />
+    <configuration name="LargestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.hashing.LargestSubArray" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.sort.*" />
+          <option name="PATTERN" value="algo.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +74,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.sort.QuickSort" />
+    <configuration name="SubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.arrays.SubarraySum" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algo.sort.*" />
+          <option name="PATTERN" value="algo.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hasArrayTwoCandidates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.hashing.hasArrayTwoCandidates" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="printItinerary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.hashing.printItinerary" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsSubset" />
-        <item itemvalue="Application.CloseSum" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.LargestSubArray" />
+        <item itemvalue="Application.SubarraySum" />
+        <item itemvalue="Application.FindPairs" />
+        <item itemvalue="Application.printItinerary" />
+        <item itemvalue="Application.hasArrayTwoCandidates" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567347070157</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Hashing things">
+      <created>1567604854519</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1567604854519</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
