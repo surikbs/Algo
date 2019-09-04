@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/amazon/nextGreatest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algo/amazon/printParenthesis.java" afterDir="false" />
+    <list default="true" id="482f7253-8dd2-47cd-9c1c-f25857b33a35" name="Default Changelist" comment="Hashing things">
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/hashing/IsSubset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/search/pivotedBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/CloseSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algo/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hackerrank/prep/sockMerchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algo/amazon/nextGreatest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algo/search/BubbleSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algo/search/pivotedBinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algo/sort/HeapSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algo/sort/MergeSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/algo/sort/QuickSort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/hackerrank/prep/sockMerchant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/algo/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/algo/sort/SelectionSort.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,9 +51,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.nextGreatest">
+  <component name="RunManager" selected="Application.IsSubset">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.sort.BubbleSort" />
+      <option name="MAIN_CLASS_NAME" value="algo.search.BubbleSort" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloseSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.sort.CloseSum" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.sort.InsertionSort" />
+    <configuration name="IsSubset" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.hashing.IsSubset" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algo.hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.sort.MergeSort" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
@@ -68,38 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.sort.SelectionSort" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.sort.QuickSort" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="algo.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="nextGreatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.amazon.nextGreatest" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.amazon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="printParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algo.amazon.printParenthesis" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algo.amazon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.nextGreatest" />
-        <item itemvalue="Application.printParenthesis" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.IsSubset" />
+        <item itemvalue="Application.CloseSum" />
         <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +201,7 @@
     <MESSAGE value="Search algo" />
     <MESSAGE value="InterpolationSearch" />
     <MESSAGE value="Search Algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search Algo" />
+    <MESSAGE value="Hashing things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashing things" />
   </component>
 </project>
