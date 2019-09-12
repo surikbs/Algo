@@ -2,7 +2,7 @@ package algo.arrays;
 
 public class MissingNumber {
     public static void main(String[] args) {
-        int[] arr1 = {7,6,3,1,8,5,4,9};
+        int[] arr1 = {7,6,3,1,8,5,4,9,2,11};
         System.out.println("Missing Number in array:"+ missingNumber(arr1));
         int[] arr2 = {9,1,2,3,5,4,8,6};
         System.out.println("Missing Number in the array:"+ missingNumber(arr2));
